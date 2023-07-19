@@ -1,11 +1,5 @@
 // TODO: Include packages needed for this application
-const {
-    renderLicenseBadge,
-    renderLicenseLink,
-    renderLicenseSection,
-    generateMarkdown
-  } = require('./generateMarkdown');
-  
+const generateMarkdown = require('./utils/generateMarkdown');
 let inquirer = require('inquirer');
 let fs = require('fs');
 
@@ -71,18 +65,12 @@ function writeToFile(fileName, data) {
     })
 };
 
-renderLicenseBadge(license);
-
 function formatAnswers(answers) {
     // Format the answers as desired (e.g., convert to JSON, Markdown, etc.)
     // Here, we are converting the answers to a simple string format
     //let yourLicense = licenseBadge(answers.license);
     //let lowerCaseGithub = answers.github.toLowerCase();
     const formattedAnswers = generateMarkdown(answers);
-    const licenseBadge = renderLicenseBadge(license);
-    const licenseLink = renderLicenseLink(license);
-    const licenseSection = renderLicenseSection(license);
-    
         
     return formattedAnswers;
 }
@@ -91,7 +79,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         let formattedAnswers = formatAnswers(answers);
         
-        writeToFile('output.txt', formattedAnswers);
+        writeToFile('README2.md', formattedAnswers);
     });
 }
 // Function call to initialize app
