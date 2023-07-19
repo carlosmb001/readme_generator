@@ -1,4 +1,11 @@
 // TODO: Include packages needed for this application
+const {
+    renderLicenseBadge,
+    renderLicenseLink,
+    renderLicenseSection,
+    generateMarkdown
+  } = require('./generateMarkdown');
+  
 let inquirer = require('inquirer');
 let fs = require('fs');
 
@@ -64,61 +71,18 @@ function writeToFile(fileName, data) {
     })
 };
 
-function licenseBadge(license) {
-    let licenseType = license;
-    let yourLicense = '';
-    if (licenseType === 'mit') {
-      yourLicense = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-    } else if (licenseType === 'gpl-3.0') {
-      yourLicense = `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
-    } else if (licenseType === 'apache-2.0') {
-      yourLicense = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-    } else if (licenseType === 'mpl-2.0') {
-      yourLicense = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
-    } else {
-      yourLicense = 'N/A';
-    }
-    return yourLicense;
-  };
+renderLicenseBadge(license);
 
 function formatAnswers(answers) {
     // Format the answers as desired (e.g., convert to JSON, Markdown, etc.)
     // Here, we are converting the answers to a simple string format
-    let yourLicense = licenseBadge(answers.license);
-    let lowerCaseGithub = answers.github.toLowerCase();
-    const formattedAnswers = `
-# ${answers.title}
-
-## Description
-${answers.description}
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
-## Installation
- ${answers.installation}
-
- ## Usage
-${answers.usage}
-
-## License
-This application is covered under the ${answers.license} license.
-${yourLicense}
-
-## Contributing
-${answers.contribution}
-
-## Tests
-${answers.tests}
-
-## Questions
-For additional questions, you can reach me through GitHub: [${answers.github}](https://github.com/${lowerCaseGithub}/)
-You can also contact me via email: (${answers.email})`;
+    //let yourLicense = licenseBadge(answers.license);
+    //let lowerCaseGithub = answers.github.toLowerCase();
+    const formattedAnswers = generateMarkdown(answers);
+    const licenseBadge = renderLicenseBadge(license);
+    const licenseLink = renderLicenseLink(license);
+    const licenseSection = renderLicenseSection(license);
+    
         
     return formattedAnswers;
 }
