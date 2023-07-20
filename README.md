@@ -1,4 +1,4 @@
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Node.js README Generator
 
 ## Description
@@ -24,19 +24,21 @@ To use Your Program Name and generate a professional README.md file, follow thes
 1. Open the terminal and navigate to the root directory of the project.
 2. Run the following command: node index.js
 3. Answer the prompts to provide information about your project, such as the title, description, installation instructions, usage details, license, contribution guidelines, test instructions, your GitHub username, and your email address.
-4. Once you have answered all the prompts, Your Program Name will generate a README.md file with the provided information.
+4. Once you have answered all the prompts, the program will generate a README.md file with the provided information.
 
 ## License
-This application is covered under the mit license.
+This application is covered under the MIT license.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Contributing
-carlos
+![README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+![Digitalocean Inquirer.js](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
+![License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+![Lukas Himsel](https://gist.github.com/lukas-h)
 
 ## Tests
-undefined
-
+NA
 ## Questions
 For additional questions, you can reach me through GitHub: [carlosmb001](https://github.com/carlosmb001/)
 You can also contact me via email: (carlosmb1001@icloud.com)
