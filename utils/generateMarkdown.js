@@ -66,7 +66,7 @@ ${renderLicenseLink(answers.license)}
 ${answers.contribution}
 
 ## Tests
-${answers.tests}
+${answers.test}
 
 ## Questions
 For additional questions, you can reach me through GitHub: [${answers.github}](https://github.com/${answers.github}/)

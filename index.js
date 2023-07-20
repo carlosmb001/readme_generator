@@ -79,7 +79,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         let formattedAnswers = formatAnswers(answers);
         
-        writeToFile('README2.md', formattedAnswers);
+        writeToFile('README.md', formattedAnswers);
     });
 }
 // Function call to initialize app
