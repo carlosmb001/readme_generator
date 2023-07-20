@@ -27,19 +27,15 @@ To use Your Program Name and generate a professional README.md file, follow thes
 4. Once you have answered all the prompts, the program will generate a README.md file with the provided information.
 
 ## License
-This application is covered under the MIT license.
-
+This application is covered under the MIT license.<br>
 [License: MIT](https://opensource.org/licenses/MIT)
 
 
 ## Contributing
-[README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-[Digitalocean Inquirer.js](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
-
-[License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
-
-[Lukas Himsel](https://gist.github.com/lukas-h)
+[README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)<br>
+[Digitalocean Inquirer.js](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)<br>
+[License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)<br>
+[Lukas Himsel](https://gist.github.com/lukas-h)<br>
 
 ## Tests
 NA 
