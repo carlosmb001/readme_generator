@@ -28,7 +28,7 @@ To use Your Program Name and generate a professional README.md file, follow thes
 
 ## License
 This application is covered under the MIT license.
-![License: MIT](https://opensource.org/licenses/MIT)
+[License: MIT](https://opensource.org/licenses/MIT)
 
 
 ## Contributing
