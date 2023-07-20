@@ -19,8 +19,9 @@ A command-line application that allows users to generate a professional README.m
 npm install
 
  ## Usage
-To use Your Program Name and generate a professional README.md file, follow these steps:
-
+ [Demo](<utils/README node.js Recording.mov>)<br>
+ ![Inputs](<utils/README screenshot.png>)<br>
+To use Your Program Name and generate a professional README.md file, follow these steps:<br>
 1. Open the terminal and navigate to the root directory of the project.
 2. Run the following command: node index.js
 3. Answer the prompts to provide information about your project, such as the title, description, installation instructions, usage details, license, contribution guidelines, test instructions, your GitHub username, and your email address.
