@@ -19,7 +19,7 @@ A command-line application that allows users to generate a professional README.m
 npm install
 
  ## Usage
- (https://drive.google.com/file/d/1e-tpcQoGIhzCxT2e-Rf9cgQPiOM_HXuB/view)<br>
+ https://drive.google.com/file/d/1e-tpcQoGIhzCxT2e-Rf9cgQPiOM_HXuB/view<br>
  ![Inputs](<utils/README screenshot.png>)<br>
 To use Your Program Name and generate a professional README.md file, follow these steps:<br>
 1. Open the terminal and navigate to the root directory of the project.
