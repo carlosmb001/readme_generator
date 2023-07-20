@@ -28,7 +28,7 @@ To use Your Program Name and generate a professional README.md file, follow thes
 
 ## License
 This application is covered under the MIT license.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT]](https://opensource.org/licenses/MIT)
 
 
 ## Contributing
@@ -38,7 +38,7 @@ This application is covered under the MIT license.
 ![Lukas Himsel](https://gist.github.com/lukas-h)
 
 ## Tests
-NA
+NA 
 ## Questions
 For additional questions, you can reach me through GitHub: [carlosmb001](https://github.com/carlosmb001/)
 You can also contact me via email: (carlosmb1001@icloud.com)
